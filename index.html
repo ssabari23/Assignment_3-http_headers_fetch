@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>assignment 3</title>
+
+</head>
+
+<body>
+    <button onclick="myfunction()" id="gentoken">Generate token</button>
+    <div id="displaytoken"></div>
+    <form id="form" method="POST">
+        <input type="text" id="nameh" placeholder="username"></input><br>
+        <input type="text" id="datah" placeholder="data"></input><br>
+        <input type="text" id="tokenh" placeholder="token"></input><br>
+        <input type="submit" id="register" placeholder="Register"></input>
+    </form>
+    <br><br>
+    <div id="errordisplay"></div>
+    <br><br>
+
+    <form id="togetdata" method="POST">
+        <input type="text" id="entertoken" placeholder="enter token"></input><br>
+
+        <input type="submit" id="get" placeholder="Get!"></input>
+    </form>
+    <div id="displayusername"></div>
+    <div id="displaydata"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
