@@ -5,7 +5,7 @@ fetch('http://localhost:12345/get_token')
     .then(data => {
       console.log(data.token)
       
-      document.querySelector("#displaytoken").innerText= "Hola, Amigo! Token : " + data.token
+      document.querySelector("#displaytoken").innerText= "Token : " + data.token
     
     })   
 
